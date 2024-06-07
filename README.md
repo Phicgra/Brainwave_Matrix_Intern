@@ -2,7 +2,7 @@
 Overview
 The Brainwave-Matrix-S1olutions ATM Simulation is a simple text-based simulation of an ATM system. It allows users to create an account, log in, and perform basic banking operations such as withdrawals, deposits, and balance inquiries.
 
-Features
+# Features
 Account creation with username and a four-digit PIN.
 User login with username and PIN validation.
 Withdrawal, deposit, and balance inquiry options.
@@ -10,25 +10,25 @@ Limited login attempts to enhance security.
 
 # Project Structure
 
-# ATM_Simulation/
+ATM_Simulation/
 │
 ├── README.md
 └── atm_simulation.py
 
-Installation
+# Installation
 This project requires Python 3 to be installed on your system.
 
 Clone the repository or download the atm_simulation.py file to your local machine.
 Ensure you have Python 3 installed. You can check this by running:
-python --version
+## python --version
 
-Usage
+# Usage
 Open a terminal or command prompt.
 Navigate to the directory where the atm_simulation.py file is located.
 Run the script using Python:
-python atm_simulation.py
+## python atm_simulation.py
 Follow the on-screen prompts to interact with the ATM simulation.
-Example Interaction
+# Example Interaction
 
 WELCOME TO BRAINWAVE-MATRIX-S1OLUTIONS ATM SIMULATION
 Please insert your ATM Card
@@ -59,15 +59,15 @@ TAKE YOUR CASH
 Your current balance is $9500
 THANK YOU FOR USING BRAIN-WAVE-MATRIX-SOLUTION BANK !!!
 
-Notes
+# Notes
 The balance is initialized to $10,000.
 Users have four attempts to log in correctly before being locked out.
 The project currently does not save user data between sessions.
-Contributing
+# Contributing
 Contributions to this project are welcome. Feel free to fork the repository and submit pull requests with improvements.
 
-License
+# License
 This project is open source project.
 
-Acknowledgements
+# Acknowledgements
 Special thanks to Brainwave-Matrix-S1olutions for inspiring this project.
