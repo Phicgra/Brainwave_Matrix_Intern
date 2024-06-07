@@ -8,9 +8,9 @@ User login with username and PIN validation.
 Withdrawal, deposit, and balance inquiry options.
 Limited login attempts to enhance security.
 
-#Project Structure
+# Project Structure
 
-##ATM_Simulation/
+# ATM_Simulation/
 │
 ├── README.md
 └── atm_simulation.py
