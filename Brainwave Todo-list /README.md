@@ -9,7 +9,6 @@ A simple and elegant To-Do List application built with HTML, CSS, and JavaScript
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -70,13 +69,10 @@ Contributions are welcome! Please follow these steps to contribute:
 
 6. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-- **Author**: Your Name
+- **Author**: Emmanuel Igbeng 
 - **GitHub**: [Phicgra](https://github.com/Phicgra)
 - **LinkedIn**: [Emmanuel Igbeng](https://www.linkedin.com/in/emmanuel-igbeng-2a4305235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - **Email**: [emmanueligbeng01@gmail.com](mailto:emmanueligbeng01@gmail.com)
