@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav a.active {
+    background: #45a29e;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.cart {
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-details {
+    flex-grow: 1;
+    margin-left: 1em;
+}
+
+.product-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.product-details p {
+    margin: 0.5em 0;
+}
+
+.product-details label, 
+.product-details input {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.remove-item {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-item:hover {
+    background: #c0392b;
+}
+
+.total {
+    text-align: right;
+    margin-top: 2em;
+}
+
+.total h2 {
+    margin: 0;
+}
+
+.checkout {
+    background: #45a29e;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.checkout:hover {
+    background: #66b3b1;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .product-details {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
+    .total {
+        text-align: left;
+    }
+}

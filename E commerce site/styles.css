@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: #0b0c10;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: #1f2833;
+    position: sticky;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logo a{
+   text-decoration: none;
+   color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav a.buy-now {
+    background: #45a29e;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    color: #45a29e;
+}
+
+.hero p {
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+.hero .buy-now {
+    background: #45a29e;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.hero-image img {
+    width: 350px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 0.3em;
+    background: #1f2833;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text, .hero-image {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
